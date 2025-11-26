@@ -24,14 +24,14 @@ const Dashboard = () => {
       sprint4: { velocidad: 28, predictibilidad: 94, defectos: 0.09 }
     },
     prioridades: [
-      { name: 'Alto', value: 36.4, color: '#3b82f6' },
-      { name: 'Medio', value: 36.4, color: '#fb923c' },
-      { name: 'Bajo', value: 27.3, color: '#a78bfa' }
+      { name: 'Alta', value: 9.8, color: '#fb923c' },
+      { name: 'Media', value: 86.9, color: '#3b82f6' },
+      { name: 'Baja', value: 3.3, color: '#a78bfa' }
     ],
     requerimientos: [
-      { name: 'Implementado', cantidad: 11, color: '#3b82f6' },
-      { name: 'Sin implementar', cantidad: 6, color: '#6b7280' },
-      { name: 'Retrasado', cantidad: 5, color: '#f59e0b' }
+      { name: 'Finalizaados', cantidad: 22, color: '#3b82f6' },
+      { name: 'En Curso', cantidad: 4, color: '#6b7280' },
+      { name: 'Retrasado', cantidad: 1, color: '#f59e0b' }
     ],
     statusPruebas: [
       { name: 'Not Done', value: 46.7, color: '#3b82f6' },
