@@ -11,7 +11,7 @@ const Dashboard = () => {
   const datosProyecto1 = {
     metricas: {
       defectDensity: 0.10,
-      coberturaDefectos: 95.2,
+      coberturaDefectos: 86,
       csatScore: 4.2,
       velocidadEquipo: 28,
       predictibilidad: 93,
@@ -102,7 +102,7 @@ const Dashboard = () => {
       yellow: "from-amber-500/20 to-yellow-500/20 border-amber-500/30",
       blue: "from-blue-500/20 to-cyan-500/20 border-blue-500/30"
     };
-    
+
     const iconColorClasses = {
       green: "text-emerald-400",
       yellow: "text-amber-400",
@@ -175,8 +175,8 @@ const Dashboard = () => {
                   onChange={(e) => setSelectedProject(e.target.value)}
                   className="w-full p-3 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                 >
-                  <option value="proyecto1">Proyecto 1 - Sistema CRM</option>
-                  <option value="proyecto2">Proyecto 2 - App Mobile</option>
+                  <option value="proyecto1">Proyecto 1 - Planify</option>
+                  <option value="proyecto2">Proyecto 2 - Packn'go</option>
                 </select>
               </div>
             </div>
@@ -259,7 +259,7 @@ const Dashboard = () => {
                   <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
                   <XAxis dataKey="sprint" stroke="#9ca3af" />
                   <YAxis stroke="#9ca3af" />
-                  <Tooltip 
+                  <Tooltip
                     contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '0.5rem' }}
                     labelStyle={{ color: '#e2e8f0' }}
                   />
@@ -282,7 +282,7 @@ const Dashboard = () => {
                   <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
                   <XAxis dataKey="sprint" stroke="#9ca3af" />
                   <YAxis stroke="#9ca3af" />
-                  <Tooltip 
+                  <Tooltip
                     contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '0.5rem' }}
                     labelStyle={{ color: '#e2e8f0' }}
                   />
@@ -333,7 +333,7 @@ const Dashboard = () => {
                   <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
                   <XAxis dataKey="name" stroke="#9ca3af" />
                   <YAxis stroke="#9ca3af" />
-                  <Tooltip 
+                  <Tooltip
                     contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '0.5rem' }}
                     labelStyle={{ color: '#e2e8f0' }}
                   />
