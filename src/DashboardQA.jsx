@@ -13,15 +13,16 @@ const Dashboard = () => {
       defectDensity: 0.57,
       coberturaDefectos: 86,
       csatScore: 3.2,
-      velocidadEquipo: 28,
-      predictibilidad: 93,
+      velocidadEquipo: 9,
+      predictibilidad: 90.9,
       leadTime: 10
     },
     sprints: {
-      sprint1: { velocidad: 26, predictibilidad: 90, defectos: 0.12 },
-      sprint2: { velocidad: 28, predictibilidad: 93, defectos: 0.10 },
-      sprint3: { velocidad: 30, predictibilidad: 95, defectos: 0.08 },
-      sprint4: { velocidad: 28, predictibilidad: 94, defectos: 0.09 }
+      sprint1: { velocidad: 5, predictibilidad: 90, defectos: 0.12 },
+      sprint2: { velocidad: 2, predictibilidad: 93, defectos: 0.10 },
+      sprint3: { velocidad: 15, predictibilidad: 95, defectos: 0.08 },
+      sprint4: { velocidad: 11, predictibilidad: 94, defectos: 0.09 },
+      sprint5: { velocidad: 7, predictibilidad: 94, defectos: 0.09 }
     },
     prioridades: [
       { name: 'Alta', value: 9.8, color: '#fb923c' },
@@ -61,23 +62,25 @@ const Dashboard = () => {
       sprint4: { velocidad: 32, predictibilidad: 86, defectos: 0.14 }
     },
     prioridades: [
-      { name: 'Alto', value: 42.0, color: '#3b82f6' },
-      { name: 'Medio', value: 33.0, color: '#fb923c' },
-      { name: 'Bajo', value: 25.0, color: '#a78bfa' }
+      { name: 'Alto', value: 50, color: '#3b82f6' },
+      { name: 'Medio', value: 25, color: '#fb923c' },
+      { name: 'Bajo', value: 25, color: '#a78bfa' }
     ],
     requerimientos: [
-      { name: 'Implementado', cantidad: 13, color: '#3b82f6' },
-      { name: 'Sin implementar', cantidad: 8, color: '#6b7280' },
-      { name: 'Retrasado', cantidad: 4, color: '#f59e0b' }
+      { name: 'Implementado', cantidad: 3, color: '#3b82f6' },
+      { name: 'Sin implementar', cantidad: 13, color: '#6b7280' },
+      { name: 'Retrasado', cantidad: 1, color: '#f59e0b' },
+      { name: 'En curso', cantidad: 7, color: '#3af50bff' }
     ],
     statusPruebas: [
-      { name: 'Not Done', value: 38.5, color: '#3b82f6' },
-      { name: 'Passed', value: 50.0, color: '#fb923c' },
-      { name: 'Failed', value: 11.5, color: '#a78bfa' }
+      { name: 'Not Done', value: 86.2, color: '#3b82f6' },
+      { name: 'Passed', value: 3.3, color: '#fb923c' },
+      { name: 'Started but not done', value: 6.2, color: '#fff200ff' },
+      { name: 'Failed', value: 3.3, color: '#ff0000ff' }
     ],
     codigoProbado: [
-      { name: 'Probado', value: 88.5, color: '#3b82f6' },
-      { name: 'No probado', value: 11.5, color: '#f87171' }
+      { name: 'Probado', value: 4.8, color: '#3b82f6' },
+      { name: 'No probado', value: 95.2, color: '#f87171' }
     ]
   };
 
@@ -374,7 +377,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          {/* Porcentaje de Código Probado */}
+          {/* Estatus de las */}
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl opacity-20 group-hover:opacity-30 blur transition duration-300"></div>
             <div className="relative bg-slate-800/90 backdrop-blur-xl rounded-2xl p-6 border border-slate-700/50">
