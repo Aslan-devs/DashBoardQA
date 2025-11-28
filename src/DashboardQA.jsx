@@ -10,7 +10,7 @@ const Dashboard = () => {
   // Datos de ejemplo para Proyecto 1
   const datosProyecto1 = {
     metricas: {
-      defectDensity: 0.10,
+      defectDensity: 0.57,
       coberturaDefectos: 86,
       csatScore: 4.2,
       velocidadEquipo: 28,
