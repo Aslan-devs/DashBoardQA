@@ -18,11 +18,12 @@ const Dashboard = () => {
       leadTime: 10
     },
     sprints: {
-      sprint1: { velocidad: 5, predictibilidad: 90, defectos: 0.12 },
-      sprint2: { velocidad: 2, predictibilidad: 93, defectos: 0.10 },
-      sprint3: { velocidad: 15, predictibilidad: 95, defectos: 0.08 },
-      sprint4: { velocidad: 11, predictibilidad: 94, defectos: 0.09 },
-      sprint5: { velocidad: 7, predictibilidad: 94, defectos: 0.09 }
+      sprint1: { velocidad: 13, predictibilidad: 100, defectos: 0.12 },
+      sprint2: { velocidad: 8, predictibilidad: 85, defectos: 0.10 },
+      sprint3: { velocidad: 6, predictibilidad: 60, defectos: 0.08 },
+      sprint4: { velocidad: 9, predictibilidad: 78, defectos: 0.09 },
+      sprint5: { velocidad: 7, predictibilidad: 75, defectos: 0.09 },
+      sprint6: { velocidad: 8, predictibilidad: 83, defectos: 0.09 }
     },
     prioridades: [
       { name: 'Alta', value: 9.8, color: '#fb923c' },
@@ -91,7 +92,9 @@ const Dashboard = () => {
     { sprint: 'S1', ...datosActuales.sprints.sprint1 },
     { sprint: 'S2', ...datosActuales.sprints.sprint2 },
     { sprint: 'S3', ...datosActuales.sprints.sprint3 },
-    { sprint: 'S4', ...datosActuales.sprints.sprint4 }
+    { sprint: 'S4', ...datosActuales.sprints.sprint4 },
+    { sprint: 'S5', ...datosActuales.sprints.sprint5 },
+    { sprint: 'S6', ...datosActuales.sprints.sprint6 }
   ];
 
   const handleFileUpload = (event) => {
