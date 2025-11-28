@@ -55,10 +55,10 @@ const Dashboard = () => {
       leadTime: 4.2
     },
     sprints: {
-      sprint1: { velocidad: 30, predictibilidad: 85, defectos: 0.18 },
-      sprint2: { velocidad: 32, predictibilidad: 87, defectos: 0.15 },
-      sprint3: { velocidad: 34, predictibilidad: 90, defectos: 0.13 },
-      sprint4: { velocidad: 32, predictibilidad: 86, defectos: 0.14 }
+      sprint1: { velocidad: 5, predictibilidad: 85, defectos: 0.18 },
+      sprint2: { velocidad: 7, predictibilidad: 87.5, defectos: 0.15 },
+      sprint3: { velocidad: 4, predictibilidad: 50, defectos: 0.13 },
+      sprint4: { velocidad: 3, predictibilidad: 33.33, defectos: 0.14 }
     },
     prioridades: [
       { name: 'Alto', value: 50, color: '#3b82f6' },
