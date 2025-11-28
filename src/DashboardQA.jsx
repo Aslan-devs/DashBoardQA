@@ -12,7 +12,7 @@ const Dashboard = () => {
     metricas: {
       defectDensity: 0.57,
       coberturaDefectos: 86,
-      csatScore: 4.2,
+      csatScore: 3.2,
       velocidadEquipo: 28,
       predictibilidad: 93,
       leadTime: 10
