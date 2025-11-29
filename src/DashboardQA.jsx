@@ -39,8 +39,8 @@ const Dashboard = () => {
       { name: 'Failed', value: 6.7, color: '#a78bfa' }
     ],
     codigoProbado: [
-      { name: 'Probado', value: 39.3, color: '#3b82f6' },
-      { name: 'No probado', value: 60.8, color: '#f87171' }
+      { name: 'Probado', value: 60.8, color: '#3b82f6' },
+      { name: 'No probado', value: 39.3, color: '#f87171' }
     ]
   };
 
