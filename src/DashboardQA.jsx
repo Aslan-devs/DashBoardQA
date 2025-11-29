@@ -50,9 +50,9 @@ const Dashboard = () => {
       defectDensity: 0.44,
       coberturaDefectos: 82,
       csatScore: 3.8,
-      velocidadEquipo: 32,
+      velocidadEquipo: 4.5,
       predictibilidad: 87,
-      leadTime: 4.2
+      leadTime: 10.4
     },
     sprints: {
       sprint1: { velocidad: 5, predictibilidad: 85, defectos: 0.18 },
