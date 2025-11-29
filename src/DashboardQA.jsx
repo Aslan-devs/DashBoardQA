@@ -29,7 +29,7 @@ const Dashboard = () => {
       { name: 'Baja', value: 3.3, color: '#a78bfa' }
     ],
     requerimientos: [
-      { name: 'Finalizaados', cantidad: 22, color: '#3b82f6' },
+      { name: 'Finalizados', cantidad: 22, color: '#3b82f6' },
       { name: 'En Curso', cantidad: 4, color: '#6b7280' },
       { name: 'Retrasado', cantidad: 1, color: '#f59e0b' }
     ],
