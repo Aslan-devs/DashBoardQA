@@ -47,8 +47,8 @@ const Dashboard = () => {
   // Datos de ejemplo para Proyecto 2
   const datosProyecto2 = {
     metricas: {
-      defectDensity: 0.15,
-      coberturaDefectos: 88.5,
+      defectDensity: 0.44,
+      coberturaDefectos: 82,
       csatScore: 3.8,
       velocidadEquipo: 32,
       predictibilidad: 87,
